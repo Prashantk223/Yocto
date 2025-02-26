@@ -5,8 +5,10 @@ SRC_URI = "file://userprog.c \
                     file://function.c \
                     file://ReadMe.txt" 
 S = "${WORKDIR}"
+DEPENDS = "mydynamic"
+RDEPENDS_${PN} = "pciutils"
 do_compile() {
-        ${CC} userprog.c function.c ${LDFLAGS} -o userprog
+        ${CC} userprog.c function.c ${LDFLAGS} -o userprog -llwl
 }
 do_install() {
         install -d ${D}${bindir}

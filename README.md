@@ -1,4 +1,4 @@
-Designed and implemented a complete Yocto-based embedded Linux environment, creating a custom distribution with new layers, recipes, and system components.
+Yocto-based embedded Linux environment, creating a custom distribution with new layers, recipes, and system components.
 Demonstrated end-to-end BSP skills by integrating kernel device drivers and user-space applications through Yocto build and packaging workflows.
 
 • Set up a Yocto/OpenEmbedded build environment and created a custom distribution tailored to target hardware requirements.
